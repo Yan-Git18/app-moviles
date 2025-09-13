@@ -78,8 +78,8 @@ class RealtimeDatabaseActivity : ComponentActivity() {
                             CircularProgressIndicator()
                         } else {
                             LazyColumn {
-                                items(viewmodel.songs) { contact ->
-                                    Text(text = contact.cancion)
+                                items(viewmodel.songs) { song ->
+                                    Text(text = "${song.cancion} - ${song.autor}")
                                 }
                             }
                         }
