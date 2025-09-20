@@ -3,4 +3,6 @@
     <string name="title_activity_contact_jet_pack">ContactJetPackActivity</string>
     <string name="title_activity_jet_pack">JetPackActivity</string>
     <string name="title_activity_realtime_database">RealtimeDatabaseActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_futbolistas">FutbolistasActivity</string>
 </resources>

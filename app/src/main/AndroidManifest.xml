@@ -13,35 +13,48 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Appmoviles">
-
         <activity
-            android:name=".RealtimeDatabaseActivity"
+            android:name=".FutbolistasActivity"
             android:exported="true"
-            android:label="@string/title_activity_realtime_database"
+            android:label="@string/title_activity_futbolistas"
             android:theme="@style/Theme.Appmoviles" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.Appmoviles">
 
+        </activity>
+        <activity
+            android:name=".RealtimeDatabaseActivity"
+            android:exported="false"
+            android:label="@string/title_activity_realtime_database"
+            android:theme="@style/Theme.Appmoviles">
+
+        </activity>
         <activity
             android:name=".JetPackActivity"
-            android:exported="true" />
+            android:exported="false">
 
+        </activity>
         <activity
             android:name=".ContactJetPackActivity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/title_activity_contact_jet_pack"
-            android:theme="@style/Theme.Appmoviles" >
-        </activity>
+            android:theme="@style/Theme.Appmoviles">
 
-        <!-- ESTA es tu actividad principal -->
+        </activity> <!-- ESTA es tu actividad principal -->
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="false">
 
         </activity>
-
     </application>
+
 </manifest>
